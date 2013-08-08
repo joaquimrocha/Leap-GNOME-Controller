@@ -7,9 +7,9 @@ detect hands' motion and gestures and interprets them, producing a
 corresponding action for the GNOME Desktop.
 
 
----------
+--------
 Gestures
----------
+--------
 
 Use one hand with one finger sticking out in order to control the mouse.
 If the mouse doesn't move too much for a little while, it will be stopped
