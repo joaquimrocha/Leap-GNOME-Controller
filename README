@@ -7,6 +7,17 @@ detect hands' motion and gestures and interprets them, producing a
 corresponding action for the GNOME Desktop.
 
 
+----------
+How to Use
+----------
+
+Assuming you have all that is needed for the Leap device to be detected
+and used...
+Run the leapd daemon, then run leap-gnome-controller.py:
+$ leapd &
+$ ./leap-gnome-controller.py
+
+
 --------
 Gestures
 --------
