@@ -1,0 +1,28 @@
+-----------------------------
+Leap Motion GNOME Controller
+-----------------------------
+
+This is a relatively small Python script that uses Leap Motion's libs to
+detect hands' motion and gestures and interprets them, producing a
+corresponding action for the GNOME Desktop.
+
+
+---------
+Gestures
+---------
+
+Use one hand with one finger sticking out in order to control the mouse.
+If the mouse doesn't move too much for a little while, it will be stopped
+until a there is a big move again. This makes it easier to perform a click.
+
+List of Gestures
+-----------------
+
+-----------------------------------------------------------------------------------
+| Click                         | Key tap gesture                                 |
+| Toggle Activities View        | Circle gesture                                  |
+| Increase/Decrease Zoom        | Pinch gesture using two hands' pointing fingers |
+| Move to Previous/Next Desktop | Swipe up/down using one opened hand             |
+-----------------------------------------------------------------------------------
+
+More gestures may be added in the future!
